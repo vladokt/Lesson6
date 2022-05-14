@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perimetr", "Lesson6\Perimetr.csproj", "{5F69BCE7-5B92-449A-B01C-F9C3D7A4905D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perimeter", "Lesson6\Perimeter.csproj", "{5F69BCE7-5B92-449A-B01C-F9C3D7A4905D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Volume", "Lesson6_2\Volume.csproj", "{1E1CBEEA-F53E-42A1-BB92-815E7B736AF7}"
 EndProject
