@@ -21,24 +21,24 @@
 
             List<Shape> shape = new();
 
-            Shape sh;
+            Shape s;
             bool isOk;
 
             do
             {
                 Console.Write("Add shape in container (1 - box, 2 - cylinder, 3 - pyramid, 4 - ball): ");
                 
-                sh = AddShape(Console.ReadLine());
+                s = AddShape(Console.ReadLine());
                 
-                isOk = container.Add(sh);
+                isOk = container.Add(s);
 
                 if (isOk)
                 {
-                    shape.Add(sh);
+                    shape.Add(s);
                 }
             } while (isOk);
 
-            Console.WriteLine($"You put in container {shape.Count} shapes:");
+            Console.WriteLine($"You placed into the container {shape.Count} shapes:");
             for (int i = 0; i < shape.Count; i++)
             {
                 Console.Write($"{i + 1}. ");
@@ -68,7 +68,7 @@
                     }
                 case "3":
                     {
-                        Console.Write("Enter pyramid base area: ");
+                        Console.Write("Enter pyramid base square: ");
                         int s = int.Parse(Console.ReadLine());
                         Console.Write("Enter pyramid height: ");
                         int h = int.Parse(Console.ReadLine());
